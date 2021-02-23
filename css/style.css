@@ -1,0 +1,264 @@
+/* common codes */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display"serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+
+.c-span {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    display: block;
+}
+
+.c-h1 {
+    margin: 20px 0 30px;
+    font-size: 30px;
+    font-family: "PlayfairDisplay";
+    font-weight: 400;
+    color: #626262;
+}
+
+.c-p {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: "PlayfairDisplay";
+    color: #626262;
+    line-height: 24px;
+}
+
+/* common codes */
+/* header starts */
+header {
+    padding: 20px 0;
+    /*border: 1px solid red;*/
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+
+.logo {
+    float: left;
+    width: 15%;
+    padding-top: 15px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    float: right;
+    width: 80%;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    margin: 0 50px;
+    padding: 3px 3px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu ul li:last-child a {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.menu ul li a:hover {
+    border-bottom: 1px solid #626262;
+}
+
+/* header ends */
+
+/*banner starts*/
+.container img {
+    width: 100%
+}
+
+/*banner ends*/
+/* gate way starts */
+.gateway {
+    padding: 80px 0;
+}
+
+.g_content {}
+
+/* gate way starts */
+/* blog starts */
+.blog {
+    padding: 80px 0;
+
+}
+
+.single-blog {
+    float: left;
+    width: 46%;
+    margin-bottom: 8px;
+    /* border: 1px solid red; */
+}
+
+.single-blog:nth-child(even) {
+    margin-left: 8%;
+}
+
+.single-blog img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+/* blog ends */
+/*signup starts*/
+.news{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+    margin: 80px 0;
+}
+.signup{
+  text-align: center;
+}
+.s-h1{
+    color: #626262;
+    margin-top:0;
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+.s-form{
+    position: relative;
+    width: 380px;
+    /*border:1px solid red;*/
+    margin:0 auto;
+}
+.s-form input{
+    padding-bottom: 8px 10px;
+    font-family: "Playfair Display", sarif;
+    font-size: 14px;
+    color: #626262;
+    width: 335px;
+    height:45px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left:1px;
+    padding-right: 50px;
+}
+.s-form input:focus{
+    outline: 0;
+}
+.s-form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top:15px;
+    right: 0;
+}
+.s-form button:focus{
+    outline: 0;
+}
+.s-form button img{
+
+}
+/*signup ends*/
+/*button starts*/
+.load{
+    padding: 80px 0;
+    text-align: center;
+}
+.load button{
+    margin: 50px 0 100px;
+    width: 165px;
+    height:60px;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #626262;
+    background: transparent;
+    border: 1px solid #626262;
+    cursor: pointer;
+    
+}
+.load button:focus{
+    outline: 1px solid #626262;
+}
+.load button:hover{
+    background: #f0f0f0;
+    transition: .3s;
+}
+/*button ends*/
+/*footer starts*/
+.footer{
+    background: #F0F0F0;
+    height: 100px;
+}
+/*.f-w{
+     margin: 30px;
+};*/
+.f-menu{
+    margin: 30px 0;
+    float: left;
+    width:40%;
+}
+.f-menu ul{
+    list-style: none;
+
+}
+.f-menu ul li{
+    float: left;
+}
+.f-menu ul li a{
+    padding:0 10px;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #131212;
+}
+.icons{
+    margin: 28px 0px;
+    width: 20%;
+    float: right;
+}
+.icons ul{
+    list-style: none;
+}
+.icons ul li {
+    float: left;
+}
+.icons ul li a{
+    padding:0 10px;
+    text-decoration: none;
+   font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #131212;
+}
+.icons ul li:last-child a{
+    padding-right: 0;
+    margin: 0;
+}
